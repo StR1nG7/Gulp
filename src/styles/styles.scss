@@ -1,0 +1,20 @@
+$myVar: 15px;
+
+ol {
+    list-style-type: upper-roman;
+
+    li {
+        padding: $myVar;
+        border: 1px solid blue;
+        color: black;
+        transition: all 1s;
+        transform: translate(-5px, 0);
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+::placeholder {
+    color: gray;
+  }
